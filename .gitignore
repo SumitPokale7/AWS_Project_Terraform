@@ -5,8 +5,10 @@
 # .tfstate files
 **/*.tfstate
 **/*.tfstate.*
-**/Infrastructure
-**/modules
+
+**/alb
+**/ec2
+**/s3
 # We do not expect tfvar in the code
 # **/*.tfvars
 
