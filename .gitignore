@@ -6,8 +6,6 @@
 **/*.tfstate
 **/*.tfstate.*
 
-**/ec2
-
 # We do not expect tfvar in the code
 # **/*.tfvars
 
