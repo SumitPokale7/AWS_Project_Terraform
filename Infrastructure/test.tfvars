@@ -6,5 +6,6 @@ public_subnet_cidrs   = ["10.0.0.0/24", "10.0.1.0/24"]
 private_subnets_cidrs = ["10.0.2.0/24", "10.0.3.0/24"]
 enable_dns_hostnames  = true
 enable_dns_support    = false
-enable_nat_gateway    = true
+# Disabled NAT Gateway Bcoz of Cost..
+enable_nat_gateway    = false
 single_nat_gateway    = false
