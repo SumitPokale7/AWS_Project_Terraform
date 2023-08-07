@@ -1,6 +1,6 @@
 data "aws_canonical_user_id" "current" {}
 
-resource "aws_s3_bucket" "lawly_buckets" {
+resource "aws_s3_bucket" "test_buckets" {
   for_each            = var.buckets
   bucket              = "${each.key}-${terraform.workspace}"
   object_lock_enabled = false
