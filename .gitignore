@@ -5,7 +5,8 @@
 # .tfstate files
 **/*.tfstate
 **/*.tfstate.*
-
+**/credentials-file-sample.png
+**/README.md
 # We do not expect tfvar in the code
 # **/*.tfvars
 
